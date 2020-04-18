@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tenkode</groupId>
-	<artifactId>insurance-service</artifactId>
+	<artifactId>all-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>insurance-service</name>
-	<description>Manages insurance policies</description>
+	<name>all-services</name>
+	<description>Package all services into WAR</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -24,15 +24,26 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.tenkode</groupId>
+			<artifactId>car-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.tenkode</groupId>
+			<artifactId>person-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.tenkode</groupId>
+			<artifactId>insurance-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 	</dependencies>
 

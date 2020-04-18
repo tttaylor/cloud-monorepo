@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tenkode</groupId>
-	<artifactId>microservice-1</artifactId>
+	<artifactId>car-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservice-1</name>
-	<description>A simple microservice for testing</description>
+	<name>car-service</name>
+	<description>Manages car data</description>
 
 	<properties>
 		<java.version>1.8</java.version>
