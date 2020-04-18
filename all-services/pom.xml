@@ -27,17 +27,17 @@
 		<dependency>
 			<groupId>com.tenkode</groupId>
 			<artifactId>car-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.tenkode</groupId>
 			<artifactId>person-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.tenkode</groupId>
 			<artifactId>insurance-service</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
