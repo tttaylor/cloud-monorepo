@@ -1,11 +1,11 @@
-package com.tenkode.microservice1.controller;
+package com.tenkode.car.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tenkode.microservice1.dto.CarDto;
+import com.tenkode.car.dto.CarDto;
 
 @RestController
 @RequestMapping("/ms1")

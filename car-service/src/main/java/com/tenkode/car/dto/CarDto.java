@@ -1,4 +1,4 @@
-package com.tenkode.microservice1.dto;
+package com.tenkode.car.dto;
 
 public class CarDto {
 	private String make;

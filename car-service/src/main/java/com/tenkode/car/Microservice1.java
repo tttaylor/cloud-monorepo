@@ -1,4 +1,4 @@
-package com.tenkode.microservice1;
+package com.tenkode.car;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
