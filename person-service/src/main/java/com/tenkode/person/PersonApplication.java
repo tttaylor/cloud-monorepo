@@ -1,13 +1,13 @@
-package com.tenkode.insurance;
+package com.tenkode.person;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InsuranceApp {
+public class PersonApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InsuranceApp.class, args);
+		SpringApplication.run(PersonApplication.class, args);
 	}
 
 }

@@ -1,13 +1,13 @@
-package com.tenkode.person;
+package com.tenkode.car;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PersonApp {
+public class CarApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PersonApp.class, args);
+		SpringApplication.run(CarApplication.class, args);
 	}
 
 }

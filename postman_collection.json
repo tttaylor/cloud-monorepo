@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "b98fbf10-467e-48c0-b668-553b66bf829a",
+		"name": "cloud-monorepo",
+		"description": "This is a collection of requests for the services in the cloud-mono-repo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/car/tims-car",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/car/tims-car",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"car",
+						"tims-car"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/person/tim",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/person/tim",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"tim"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/insurance/tims-policy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/insurance/tims-policy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"insurance",
+						"tims-policy"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

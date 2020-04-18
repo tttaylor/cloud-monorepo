@@ -1,4 +1,4 @@
-package com.tenkode.microservice1;
+package com.tenkode.car;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Microservice1Tests {
+public class CarApplicationTest {
 
 	@Test
 	public void contextLoads() {

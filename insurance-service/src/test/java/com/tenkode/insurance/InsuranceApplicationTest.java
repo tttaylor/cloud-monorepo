@@ -1,4 +1,4 @@
-package com.tenkode.allservices;
+package com.tenkode.insurance;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class AllServicesApplicationTests {
+public class InsuranceApplicationTest {
 
 	@Test
 	public void contextLoads() {
