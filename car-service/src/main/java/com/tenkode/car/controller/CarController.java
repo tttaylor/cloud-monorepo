@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.tenkode.car.dto.CarDto;
 
 @RestController
-@RequestMapping("/ms1")
-public class Microservice1Controller {
+@RequestMapping("/car")
+public class CarController {
 
-	@GetMapping("/car")
+	@GetMapping("/tims-car")
 	public ResponseEntity<CarDto> getCar() {
 		final CarDto carDto = new CarDto();
 		carDto.setMake("Opel");

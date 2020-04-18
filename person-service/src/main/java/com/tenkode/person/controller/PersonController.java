@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.tenkode.person.dto.PersonDto;
 
 @RestController
-@RequestMapping("/ms2")
+@RequestMapping("/person")
 public class PersonController {
 
-	@GetMapping("/person")
+	@GetMapping("/tim")
 	public ResponseEntity<PersonDto> getCar() {
 		final PersonDto carDto = new PersonDto();
 		carDto.setFirst("Tim");
