@@ -14,10 +14,10 @@ import com.tenkode.car.dto.CarDto;
 @RequestMapping("/car")
 public class CarController {
 
-	@Value("${make: none}")
+	@Value("${make:none}")
 	private String make;
 
-	@Value("${model: none}")
+	@Value("${model:none}")
 	private String model;
 
 	@GetMapping("/tims-car")

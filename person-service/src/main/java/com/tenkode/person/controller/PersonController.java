@@ -14,10 +14,10 @@ import com.tenkode.person.dto.PersonDto;
 @RequestMapping("/person")
 public class PersonController {
 
-	@Value("${first: none}")
+	@Value("${first:none}")
 	private String first;
 
-	@Value("${last: none}")
+	@Value("${last:none}")
 	private String last;
 
 	@GetMapping("/tim")

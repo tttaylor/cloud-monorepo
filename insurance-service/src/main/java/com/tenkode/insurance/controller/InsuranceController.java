@@ -17,10 +17,10 @@ import com.tenkode.insurance.dto.PolicyDto;
 @RequestMapping("/insurance")
 public class InsuranceController {
 
-	@Value("${name: none}")
+	@Value("${name:none}")
 	private String name;
 
-	@Value("${price: none}")
+	@Value("${price:0.00}")
 	private String price;
 
 	@GetMapping("/tims-policy")
