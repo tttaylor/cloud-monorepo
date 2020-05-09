@@ -1,6 +1,11 @@
+server:
+  port: 29010
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+    jmx:
+      exposure:
+        exclude: "*"
 
