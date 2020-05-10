@@ -6,6 +6,5 @@ management:
       exposure:
         include: "*"
     jmx:
-      exposure:
-        exclude: "*"
+        domain: person 
 

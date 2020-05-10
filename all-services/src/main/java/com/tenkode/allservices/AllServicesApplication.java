@@ -17,7 +17,10 @@ public class AllServicesApplication implements CommandLineRunner {
 	@Autowired
 	private YamlConfig config;
 
+	@Override
 	public void run(String... args) throws Exception {
-		System.out.println(config.getApplications());
+		config.getApplications().forEach(applicationClassName -> {
+			new ServiceThread(applicationClassName).start();
+		});
 	}
 }
